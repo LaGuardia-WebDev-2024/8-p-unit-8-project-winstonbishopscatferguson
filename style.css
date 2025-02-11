@@ -1,26 +1,29 @@
-@font-face{
-  font-family: water;
-  src: url("https://cdn.glitch.global/97f7bbb3-2cd9-4b34-bbf2-d0a28c71f10b/Water%20Park.ttf?v=1738683075854");
+@font-face {
+  font-family: salmonfont;
+  src: url("https://cdn.glitch.global/83a6c4a7-ef21-4fc1-9d27-d23d28e7a4ed/Salmon%20Season.otf?v=1739292886710");
 }
 
 body {
-  background-color: aliceblue;
+  background: rgb(43, 32, 222);
+  background: linear-gradient(
+    90deg,
+    rgba(43, 32, 222, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
   text-align: center;
-  color: navy;
+  color: white;
   margin: auto;
-  font-family: water;
+  font-family: salmonfont;
 }
 
-h1{
+h1 {
   font-size: 30px;
 }
 
 #myCanvas {
-  background-image: url("https://seaviewinfo.com/wp-content/uploads/2018/07/SeaScape.jpg");
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20230617/pngtree-whimsical-3d-cartoon-rendering-of-an-underwater-world-with-bubbling-air-image_3620574.jpg");
   background-size: 600px 400px;
   border-radius: 300px;
-  border: 5px solid white;
+  border: 20px solid grey;
 }
-
-
-
